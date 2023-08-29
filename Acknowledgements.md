@@ -13,3 +13,15 @@ This being an open-source project, I must extend special thanks to those who hav
 ### Wunjo AI
 
 Remember, this application is for you. It is your support that makes it better every day. So, if you have a feature request, a bug report, or even if you want to contribute, you're always welcome!
+
+### Credits
+
+- Tacatron 2 - https://github.com/NVIDIA/tacotron2
+- Waveglow - https://github.com/NVIDIA/waveglow
+- Flask UI - https://github.com/ClimenteA/flaskwebgui
+- BeeWare - https://beeware.org/project/projects/tools/briefcase/
+- Sad Talker - https://github.com/OpenTalker/SadTalker
+- Wav2lip - https://github.com/Rudrabha/Wav2Lip
+- Face Utils - https://github.com/xinntao/facexlib
+- Face Enhancement - https://github.com/TencentARC/GFPGAN
+- Image/Video Enhancement - https://github.com/xinntao/Real-ESRGAN
