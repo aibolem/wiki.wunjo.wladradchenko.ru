@@ -80,16 +80,7 @@ In the configuration file you will find links to download models.
 6. **Download and file location**:
 Download the models and place them in the appropriate directories. Please note that the files must be in their original format, not unpacked. If Windows automatically converts files to folders, return them to their original state (for example, by zipping and renaming the extension).
 
-    - For the `checkpoint_man` model, you can see from the path that you need to create a `man` subdirectory and place a file called `checkpoint_man` there.
-
-```
-"model_path": "voice/man/checkpoint_man"
-```
-
-    - For the `waveglow.pt` model, you can see from the path that you need to create a `man` subdirectory, but rename the file to `waveglow_man.pt` before placing it.
-
-```
-"model_path": "voice/man/waveglow_man.pt"
-```
+    - For the `checkpoint_man` model, you can see from the path that you need to create a `man` subdirectory and place a file called `checkpoint_man` there: `"model_path": "voice/man/checkpoint_man`
+    - For the `waveglow.pt` model, you can see from the path that you need to create a `man` subdirectory, but rename the file to `waveglow_man.pt` before placing it: `"model_path": "voice/man/waveglow_man.pt"`
 
 Similarly, you can work with other voices. Now you know how to manually install voice models.
