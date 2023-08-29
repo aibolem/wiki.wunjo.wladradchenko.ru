@@ -98,4 +98,4 @@ To create an installer:
 brief case package
 ```
 
-More details in the [BeeWare] documentation (https://beeware.org/project/projects/tools/briefcase)
+More details in the BeeWare [documentation](https://beeware.org/project/projects/tools/briefcase)
