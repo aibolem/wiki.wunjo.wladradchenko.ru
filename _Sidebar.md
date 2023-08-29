@@ -14,4 +14,4 @@
   - [Как вручную установить модели для дипфейка анимации лица и губ](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Как-вручную-установить-модели-для-дипфейка-анимации-лица-и-губ)
   - [Поддержите проект](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Поддержите-проект)
   - [Благодарности](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Благодарности)
-  - [Автор](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Author)
+  - [Автор](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Автор)
