@@ -1,5 +1,3 @@
-# Support the Project
-
 ## Why Donate?
 
 This application is a product of countless hours of development, testing, and refining to offer you the best experience. It's entirely open-source and free to use. However, maintaining and improving the application incurs costs for development, hosting, and more.
