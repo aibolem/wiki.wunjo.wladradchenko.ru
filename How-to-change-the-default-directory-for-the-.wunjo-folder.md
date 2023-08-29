@@ -3,7 +3,7 @@
 If you need to change the location of the `.wunjo` folder, which stores the results of speech synthesis, deepfake video, and neural network models, follow these steps:
 
 1. Open the directory where your application is installed.
-2. Go to the `app/backend/[folders.py](https://github.com/wladradchenko/wunjo.wladradchenko.ru/blob/main/portable/src/backend/folders.py)` file.
+2. Go to the app/backend/[folders.py](https://github.com/wladradchenko/wunjo.wladradchenko.ru/blob/main/portable/src/backend/folders.py) file.
 3. Add the following line:
 
 ```python
