@@ -3,33 +3,31 @@ If automatic installation of models does not suit you for some reason, you can a
 1. **Go to the desired directory**:
 Change to the `~/.wunjo` directory on Unix-like systems or `%USERPROFILE%/.wunjo` on Windows. This directory can also be accessed from the application by clicking on the folder icon on the left side of the screen.
 
-    ![screenshot 1](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/7e1d14fe-62bd-4d43-a0f2-3c08eea419ca)
+![screenshot 1](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/7e1d14fe-62bd-4d43-a0f2-3c08eea419ca)
 
 2. **Working with the `deepfake` directory**:
 Models for deepfake are stored in this directory. It also contains a file with links to download the models.
 
-    ![screenshot 2](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/16187e6d-3b56-4203-b220-4a2b888cd833)
+![screenshot 2](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/16187e6d-3b56-4203-b220-4a2b888cd833)
 
 3. **Directory content**:
 checkpoints directory:
 
-    ![screenshot 3](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/c913d274-e84c-48bf-8efb-6f72cf8ba716)
+![screenshot 3](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/c913d274-e84c-48bf-8efb-6f72cf8ba716)
 
 You may notice that only two archives are unzipped: `BFM_Fitting.zip` and `hub.zip`. The rest of the models are files.
 
 Inside `BFM_Fitting` you will find the following models:
 
-
-    ![screenshot 4](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/d7c4f4a1-e0f3-4a33-94c2-923db54f5807)
-
+![screenshot 4](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/d7c4f4a1-e0f3-4a33-94c2-923db54f5807)
 
 Inside `hub/checkpoints` you will find two models:
 
-    ![screenshot 5](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/1186aab7-7371-4a33-9f5e-1f467c1c773b)
+![screenshot 5](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/1186aab7-7371-4a33-9f5e-1f467c1c773b)
 
 Let's look at the `gfpgan/weights` directory, which is responsible for improving the quality of the face or background.
 
-    ![screenshot 6](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/b4850275-a20b-49be-b0d0-5e2b3f4182e4)
+![screenshot 6](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/b4850275-a20b-49be-b0d0-5e2b3f4182e4)
 
 It is worth noting that for Windows it will be necessary to give permissions to read models, which are found in checkpoints and in gfpgan, for example: `icacls "%USERPROFILE%/.wunjo/deepfake/path_to_model" /grant:r "Users":(R,W )`. You can see an explanation of the directories in the installation video for [Windows](https://youtu.be/2qIpJYhOL2U).
 
