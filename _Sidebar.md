@@ -12,5 +12,5 @@
 
 ### More Info
 
-- [FAQ](https://github.com/YourUsername/YourRepository/wiki/FAQ)
-- [Support](https://github.com/YourUsername/YourRepository/wiki/Support)
+- [Donat](https://github.com/YourUsername/YourRepository/wiki/FAQ)
+- [Acknowledge](https://github.com/YourUsername/YourRepository/wiki/Acknowledge)
