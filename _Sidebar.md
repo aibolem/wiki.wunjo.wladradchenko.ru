@@ -12,5 +12,5 @@
 
 ### More Info
 
-- [Donat](https://github.com/YourUsername/YourRepository/wiki/FAQ)
-- [Acknowledge](https://github.com/YourUsername/YourRepository/wiki/Acknowledge)
+- [Donat](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Donat)
+- [Acknowledgements](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Acknowledgements)
