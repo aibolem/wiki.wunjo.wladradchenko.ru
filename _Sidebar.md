@@ -4,6 +4,7 @@
 - English
   - [How to install the application](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-install-the-application)
   - [How to change the default directory for the .wunjo folder](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-change-the-default-directory-for-the-.wunjo-folder)
+  - How to add another application language
   - Speech documentation
     - [How manually install model for text to speech](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-manually-install-model-for-text-to-speech)
     - How to synthesize text to speech
@@ -19,6 +20,7 @@
 - Русский
   - [Как установить приложение](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Как-установить-приложение)
   - [Как изменить директорию по умолчанию для папки .wunjo](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Как-изменить-директорию-по-умолчанию-для-папки-.wunjo)
+  - Как добавить другой язык приложения
   - Документация по речи
     - [Как вручную установить модель преобразования текста в речь](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Как-вручную-установить-модель-преобразования-текста-в-речь)
     - Как синтезировать речь из текста
