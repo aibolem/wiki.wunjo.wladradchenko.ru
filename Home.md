@@ -14,7 +14,7 @@ Wunjo is a neural network desktop application specializing in:
 
 Unlike similar web applications, Wunjo allows for multi-dialogues with multiple voices without a character limit. You can also convert spoken text to written text in real-time, making it useful for dictation.
 
-You will find help information about Wunjo AI on multi languages in wiki on **English, Русском, 中文, 한국어**. 
+You will find help information about Wunjo AI on multi languages in wiki on **English, Русском, 中文**. 
 
 👉 **Use Cases**: Voice acting for commercials, content, books, games, and more!
 
