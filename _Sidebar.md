@@ -6,6 +6,9 @@
   - [How to change the default directory for the .wunjo folder](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-change-the-default-directory-for-the-.wunjo-folder)
   - Speech documentation
     - [How manually install model for text to speech](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-manually-install-model-for-text-to-speech)
+    - How to synthesize text to speech
+    - How to clone a voice
+    - How to translate speech to text
   - Deepfake documentation
     - [How to manually set models for deepfake animation of the face and lips](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-manually-set-models-for-deepfake-animation-of-the-face-and-lips)
   - [Support the Project](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Support-the-Project)
@@ -16,6 +19,9 @@
   - [Как изменить директорию по умолчанию для папки .wunjo](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Как-изменить-директорию-по-умолчанию-для-папки-.wunjo)
   - Документация по речи
     - [Как вручную установить модель преобразования текста в речь](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Как-вручную-установить-модель-преобразования-текста-в-речь)
+    - Как синтезировать речь из текста
+    - Как клонировать голос
+    - Как перевести речь в текст
   - Документация по дипфейкам
     - [Как вручную установить модели для дипфейка анимации лица и губ](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Как-вручную-установить-модели-для-дипфейка-анимации-лица-и-губ)
   - [Поддержите проект](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Поддержите-проект)
