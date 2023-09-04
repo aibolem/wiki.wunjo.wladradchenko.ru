@@ -10,6 +10,8 @@ If you've found this application useful, you can support its ongoing development
 
 You can treat me to [a cup of coffee](https://wladradchenko.ru/donat) to show your support. Even small contributions go a long way and are greatly appreciated!
 
+<img src="https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/acc80acd-0e39-4476-88db-0a10f2098e25" alt="donat" width="250" height="250">
+
 <!-- DONAT -->
 
 ## Other Ways to Contribute
