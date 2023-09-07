@@ -14,6 +14,10 @@
     - [How to manually set models for deepfake animation of the face and lips](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-manually-set-models-for-deepfake-animation-of-the-face-and-lips)
     - How to animate a face from an image
     - How to animate lip movement under audio
+    - How to face swap target video face on source face from photo
+    - How to use retouch to improve quality deepfake or remove object
+    - How to use deepfake emotion
+    - How to use video editor tools
   - [How to use the GPU in the application](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-use-the-GPU-in-the-application)
   - [Support the Project](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Support-the-Project)
   - [Acknowledgements](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Acknowledgements)
@@ -31,6 +35,10 @@
     - [Как вручную установить модели для дипфейка анимации лица и губ](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Как-вручную-установить-модели-для-дипфейка-анимации-лица-и-губ)
     - Как анимировать лицо из изображения
     - Как анимировать движение губ под аудио
+    - Как поменять лицо целевого видео на исходное лицо с фотографии
+    - Как использовать ретушь для улучшения качества дипфейка или удаления объекта
+    - Как использовать дипфейковые эмоции
+    - Как использовать инструменты видеоредактора
   - [Как использовать GPU в приложении](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Как-использовать-GPU-в-приложении)
   - [Поддержите проект](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Поддержите-проект)
   - [Благодарности](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Благодарности)
