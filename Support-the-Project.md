@@ -12,6 +12,8 @@ You can treat me to [a cup of coffee](https://wladradchenko.ru/donat) to show yo
 
 <img src="https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/acc80acd-0e39-4476-88db-0a10f2098e25" alt="donat" width="250" height="250">
 
+You can leave a message for publication so everyone can see who supports the project, or if you want to remain anonymous, you can write it that way.
+
 <!-- DONAT -->
 
 ## Other Ways to Contribute
