@@ -24,7 +24,7 @@ Open the `voice.json` file and notice the structure. As an example, consider the
 {
    "Russian man": {
      "avatar_download": "https://wladradchenko.ru/static/wunjo.wladradchenko.ru/avatar/Man.png",
-     "checkpoint_download": "https://wladradchenko.ru/static/wunjo.wladradchenko.ru/checkpoints/checkpoint_man",
+     "checkpoint_download": "https://wladradchenko.ru/static/wunjo.wladradchenko.ru/tacotron2/checkpoint_man",
      "waveglow_download": "https://wladradchenko.ru/static/wunjo.wladradchenko.ru/waveglows/waveglow.pt",
      "voice_control_cfg": {
        "psola": {
@@ -74,7 +74,7 @@ Open the `voice.json` file and notice the structure. As an example, consider the
 5. **Model Download Links**:
 In the configuration file you will find links to download models.
 
-    - Encoder: `"checkpoint_download": "https://wladradchenko.ru/static/wunjo.wladradchenko.ru/checkpoints/checkpoint_man"`
+    - Encoder: `"checkpoint_download": "https://wladradchenko.ru/static/wunjo.wladradchenko.ru/tacotron2/checkpoint_man"`
     - Vocoder: `"waveglow_download": "https://wladradchenko.ru/static/wunjo.wladradchenko.ru/waveglows/waveglow.pt"`
 
 6. **Download and file location**:
