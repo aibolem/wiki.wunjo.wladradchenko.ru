@@ -8,13 +8,13 @@ If you've found this application useful, you can support its ongoing development
 
 ### Buy Me a Coffee
 
-You can treat me to [a slice of pizza](https://www.buymeacoffee.com/wladradchenko) in USD or [a cup of coffee](https://wladradchenko.ru/donat) in RUB to show your support. Even small contributions go a long way and are greatly appreciated!
+You can treat me to [a cup of coffee](https://www.buymeacoffee.com/wladradchenko) in USD or [a slice of pizza](https://wladradchenko.ru/donat) in RUB to show your support. Even small contributions go a long way and are greatly appreciated!
 
 <div align="center">
   <table>
   <tr>
-    <th>Buy a slice of pizza in USD</th>
-    <th>Buy a cup of coffee in RUB</th>
+    <th>Buy a cup of coffee in USD</th>
+    <th>Buy a slice of pizza in RUB</th>
   </tr>
   <tr align="center">
     <td><img src="https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/bc6eefa2-705f-4307-89fd-85d96ec29917" alt="pizza" width="250" height="250"></td>
