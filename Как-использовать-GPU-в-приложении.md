@@ -18,7 +18,7 @@
 
 #### Windows
 
-1. Перейдите на [страницу загрузки NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-downloads).
+1. Перейдите на [страницу загрузки NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-downloads) или [страницу загрузки NVIDIA CUDA Toolkit 11.8]https://developer.nvidia.com/cuda-11-8-0-download-archive).
 2. Выберите соответствующую версию для вашей системы и загрузите установщик.
 3. Запустите установщик и следуйте инструкциям на экране для завершения установки.
 4. Перезагрузите систему, чтобы завершить установку.
@@ -62,7 +62,7 @@
 
     ```bash
     python -m venv venv
-    source venv/Script/activate
+    venv\Scripts\activate.bat
     ```
 
 4. **Установка зависимостей**:
