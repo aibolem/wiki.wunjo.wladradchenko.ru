@@ -18,7 +18,7 @@ Follow the instructions below to install CUDA on your operating system:
 
 #### Windows
 
-1. Visit the [NVIDIA CUDA Toolkit download page](https://developer.nvidia.com/cuda-downloads).
+1. Visit the [NVIDIA CUDA Toolkit download page](https://developer.nvidia.com/cuda-downloads) or [NVIDIA CUDA Toolkit 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive).
 2. Choose the appropriate version for your system and download the installer.
 3. Run the installer and follow the on-screen instructions to complete the installation.
 4. Restart your system to finalize the installation.
@@ -62,7 +62,7 @@ To use the GPU in the Wunjo AI application on Windows, you need to rebuild the b
 
     ```bash
     python -m venv venv
-    source venv/Script/activate
+    venv\Scripts\activate.bat
     ```
 
 4. **Install dependencies**:
