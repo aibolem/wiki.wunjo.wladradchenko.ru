@@ -4,59 +4,95 @@ You can download installers for Windows, MacOS and Ubuntu operating systems on t
 
 #### Installation on Windows
 
-🎥 A detailed video guide for installing on Windows is available [here](https://youtu.be/2qIpJYhOL2U).
+🎥 A detailed video guide for installing on Windows is available [here](https://www.youtube.com/watch?v=UzpEcPhSDrk).
 
-```bash
-# To create animation, you need to install ffmpeg and add it to system variables
+All dependencies, including the ffmpeg library, will be installed automatically for Windows. However, if you want to do a manual installation, then you can download ffmpeg - [from the official website](https://ffmpeg.org/download.html), then add the path to the environment variable:
+```
 setx PATH "%PATH%;C:\path\to\ffmpeg\bin"
+```
 
-# Run the installer
-wunjo_{version}.msi
+Installer
+```
+wunjo_{vesrion}.msi
+```
 
-# Important! When you first start speech synthesis, video (individual functions that you have not previously run), models will be downloaded in size (~ 1-5 GB). This may take time.
-# Please note that if you have a firewall active, it may block the download. Download models manually.
+Files for testing speech synthesis and creating deepfake videos in [GitHub Example](https://raw.githubusercontent.com/wladradchenko/wunjo.wladradchenko.ru/main/example).
 
-# Setting permissions for deepfake
-icacls "%USERPROFILE%/.wunjo/deepfake/gfpgan/weights/*.pth" /grant:r "Users":(R,W)
+Attention! When you first launch speech or video synthesis, the necessary models are downloaded, for this reason you must allow the application to connect to the network if you receive a message from the firewall. You can also install all models manually as stated in the documentation - [GitHub Wiki](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki).
 
-# Clear cache
+The build only works on CPU if you want to use GPU To speed up the processing process several times, visit the documentation [GitHub Wiki](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki).
+
+If you have problems creating deepfakes, most likely the models do not have read permissions, then you need to go to the .wunjo directory, open the console and enter:
+
+```
+icacls * /grant:r "Users:(R,W)" /T
+```
+
+Attention! Check what is installed on your computer [Visual Studio.](https://visualstudio.microsoft.com/) Because for dlib to work correctly, drivers from Visual Studio are required, which are usually preinstalled by default in Windows.
+
+Deleting cache
+```
 %USERPROFILE%/.wunjo
 ```
 
 #### Installation on Ubuntu
 
-```bash
-# Installing the necessary component to create animation
+To create animation you will need to install ffmpeg
+```
 sudo apt install ffmpeg
+```
 
-# Run the installer
-sudo dpkg -i wunjo_{version}.deb
+Installing the application
+```
+sudo dpkg -i wunjo_{vesrion}.deb
+```
 
-# Important! Models (~5 GB) will be downloaded the first time video synthesis is started.
+Files for testing speech synthesis and creating deepfake videos in [GitHub Example](https://raw.githubusercontent.com/wladradchenko/wunjo.wladradchenko.ru/main/example).
 
-# Delete app and cache
+Attention! When you first start speech or video synthesis, the necessary models are downloaded; this may take some time. You can also install all models manually as stated in the documentation - [GitHub Wiki](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki).
+
+If you have problems switching to GPU, read the documentation on how to install drivers [CUDA](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki).
+
+Uninstalling an application
+```
 sudo dpkg -r wunjo
+```
+
+Deleting cache
+```
 rm -rf ~/.wunjo
 ```
 
 #### Installation on MacOS
 
-```bash
-# Installing the necessary component to create animation
-brew install ffmpeg
+To create animation you will need to install ffmpeg
+```
+brew install ffmpeg 
+```
 
-# Unzip the application
-unzip wunjo_macos_{version}.zip
+Due to the fact that the author of the project does not have an Apple license, there is currently no way to create an official installer. See [Launch project from GitHub](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-install-the-application#launch-project-from-github). You will need to install Git, Python3.10.
 
-# Important! Models (~5 GB) will be downloaded the first time video synthesis is started.
+You will find detailed installation instructions in README.md or documentation.It is worth noting that on MacOS the application will only work on the CPU, since it is not supported on MacOS drivers CUDA.
 
-# Clear cache
+Deleting cache
+```
 rm -rf ~/.wunjo
 ```
 
 #### Launch project from GitHub
 
-Requires 3.8 <= [Python](https://www.python.org/downloads/) <=3.10 and [ffmpeg](https://ffmpeg.org/download.html).
+Requires 3.10 = [Python](https://www.python.org/downloads/) and [ffmpeg](https://ffmpeg.org/download.html).
+
+Download project from GitHub manually or use git clone:
+
+```
+git clone https://github.com/wladradchenko/wunjo.wladradchenko.ru.git
+```
+
+Go to project folder:
+```
+cd wunjo.wladradchenko.ru
+```
 
 Create a virtual environment and activate:
 
@@ -68,10 +104,13 @@ source venv/bin/activate
 Install dependencies:
 
 ```
+// CPU
 pip install -r requirements.txt
+// GPU
+pip install -r requirements_gpu.txt
 ```
 
-Attention! The first time you run video synthesis, models will be downloaded in .wunjo/deepfake in the amount of 1-5GB, depending on the function being launched. This may take a long time. For speech synthesis, models will also be downloaded when you first start voice or voice clone.
+In order to use GPU you need to install CUDA 11.8. [How to use the GPU in the application](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-use-the-GPU-in-the-application).
 
 You need to change to the portable directory to use the briefcase:
 ```
@@ -80,22 +119,22 @@ cd portable
 
 Run:
 ```
-brief case dev
+briefcase dev
 ```
 
-Additionally, you can create a build
+Additionally, you can create a build to launch from file:
 ```
-brief case build
+briefcase build
 ```
 
 Run build
 ```
-brief case run
+briefcase run
 ```
 
 To create an installer:
 ```
-brief case package
+briefcase package
 ```
 
 More details in the BeeWare [documentation](https://beeware.org/project/projects/tools/briefcase)
