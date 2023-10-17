@@ -68,7 +68,7 @@
 4. **Установка зависимостей**:
 
     ```bash
-    pip install -r requirements-gpu.txt
+    pip install -r requirements_gpu.txt
     ```
 
 5. **Проверка установки CUDA**:
