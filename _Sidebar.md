@@ -16,8 +16,11 @@
     - How to animate lip movement under audio
     - How to face swap target video face on source face from photo
     - How to use retouch to improve quality deepfake or remove object
+    - How to get segmentation mask
     - How to use deepfake emotion
     - How to use video editor tools
+  - Diffusion documentation
+    - How use video to video by text prompt
   - [How to use the GPU in the application](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-use-the-GPU-in-the-application)
   - [Support the Project](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Support-the-Project)
   - [Acknowledgements](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Acknowledgements)
@@ -37,8 +40,11 @@
     - Как анимировать движение губ под аудио
     - Как поменять лицо целевого видео на исходное лицо с фотографии
     - Как использовать ретушь для улучшения качества дипфейка или удаления объектов с видео
+    - Как получить маску объектов
     - Как изменить эмоции человека на видео
     - Как использовать инструменты видеоредактора
+  - Документация по diffusion
+    - Как изменить видео текстовым запросом
   - [Как использовать GPU в приложении](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Как-использовать-GPU-в-приложении)
   - [Поддержите проект](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Поддержите-проект)
   - [Благодарности](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Благодарности)
