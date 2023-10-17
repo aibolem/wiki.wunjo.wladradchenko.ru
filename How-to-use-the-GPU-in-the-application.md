@@ -68,7 +68,7 @@ To use the GPU in the Wunjo AI application on Windows, you need to rebuild the b
 4. **Install dependencies**:
 
     ```bash
-    pip install -r requirements-gpu.txt
+    pip install -r requirements_gpu.txt
     ```
 
 5. **Verify CUDA installation**:
