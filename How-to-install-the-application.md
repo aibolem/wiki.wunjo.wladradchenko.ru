@@ -117,6 +117,14 @@ You need to change to the portable directory to use the briefcase:
 cd portable
 ```
 
+Copy pyproject.toml for using version:
+```
+// CPU
+cp pyproject_cpu.toml pyproject.toml
+// GPU
+cp pyproject_cpu.toml pyproject.toml
+```
+
 Run:
 ```
 briefcase dev
