@@ -43,6 +43,8 @@ You will find help information about Wunjo AI on multi languages in wiki on **En
     pip install -r requirements_gpu.txt
     ```
 
+More information about installation in [How to install the application](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-install-the-application) and [How to use the GPU in the application](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-use-the-GPU-in-the-application).
+
 🚨 **Heads Up!**: The first run each feature will download models of size around 1GB-10GB from application. This may take time.
 
 
