@@ -11,6 +11,8 @@ Wunjo is a neural network desktop application specializing in:
 - Deepfake Mouth Animation Creation
 - Deepfake Swap Face
 - Deepfake Face Emotion Animation Creation
+- Video to Video by Text Prompt
+- Segment Anything
 
 Unlike similar web applications, Wunjo allows for multi-dialogues with multiple voices without a character limit. You can also convert spoken text to written text in real-time, making it useful for dictation.
 
@@ -22,7 +24,7 @@ You will find help information about Wunjo AI on multi languages in wiki on **En
 
 ### Requirements
 
-- Python 3.8 - 3.10
+- Python 3.10
 - FFmpeg
 
 ### Installation Steps
@@ -35,10 +37,13 @@ You will find help information about Wunjo AI on multi languages in wiki on **En
 
 2. Install dependencies:
     ```
+    // CPU
     pip install -r requirements.txt
+    // GPU
+    pip install -r requirements_gpu.txt
     ```
 
-🚨 **Heads Up!**: The first run each deepfake or tts feature will download models of size around 1GB-5GB from application. This may take time.
+🚨 **Heads Up!**: The first run each feature will download models of size around 1GB-10GB from application. This may take time.
 
 
 ## Contact Information
