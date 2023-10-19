@@ -122,6 +122,8 @@ To use the GPU in the Wunjo AI application on Windows, you need to rebuild the b
 
     Note that creating a larger installer might encounter issues due to the 2GB size limit for MSI installers on Windows. Hence, we officially distribute only the CPU version for Windows.
 
+If you are unable to build an application for the GPU, take a look at the solution to common problems [Issue 28](https://github.com/wladradchenko/wunjo.wladradchenko.ru/issues/28).
+
 #### Ubuntu/Debian
 
 The Ubuntu application is naturally compatible with GPU libraries. Open the application, activate the GPU switch ![Screenshot from 2023-09-07 09-55-54](https://github.com/wladradchenko/wunjo.wladradchenko.ru/assets/56233697/3799f33e-f333-4340-8b78-6c73dd3a290c), and you should see a message indicating that the GPU has been activated.
