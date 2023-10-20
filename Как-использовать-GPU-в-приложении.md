@@ -67,15 +67,23 @@
 
 4. **Установка зависимостей**:
 
-    ```bash
-    pip install -r requirements_gpu.txt
+    ```
+    python -m pip install --upgrade pip
+    python -m pip install --upgrade setuptools
+    python -m pip install --upgrade wheel
+    python -m pip install -r requirements_gpu.txt
+    python -m pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+    python -m pip install xformers==0.0.19
     ```
 
 5. **Проверка установки CUDA**:
    
     После установки библиотек torch проверьте, что CUDA установлена правильно. Откройте ваш Python и запустите следующий скрипт:
+    ```
+    python
+    ```
 
-    ```python
+    ```
     import torch
 
     if torch.cuda.is_available():
@@ -90,7 +98,7 @@
 
 6. **Перейдите в папку portable**:
 
-    ```bash
+    ```
     cd portable
     ```
 
@@ -98,7 +106,7 @@
    
     Чтобы запустить в режиме разработки, используйте команду:
 
-    ```bash
+    ```
     briefcase dev
     ```
 
@@ -106,13 +114,22 @@
 
     - Для сборки:
 
-        ```bash
+        ```
         briefcase build
         ```
+    Обратите внимание, что на Windows могут возникнуть следующие ошибки после сборки: 
 
-    - После сборки, вы найдете собранный билд в директории `portable/build`. Сборка может запускаться из `.exe` как обычная программа или из консоли. Для запуска из консоли:
+     ```
+     'NoneType' object has no attribute 'flush'
+     ```
+     Для ее исправление необходимо в `wunjo/app/src/app_packages/transformers/utils/logging.py` удалить строчку `_default_handler.flush = sys.stderr.flush`.
+    
+     Torch после briefcase build поставился только для CPU. Необходимо скопировать из venv torch и torchvision и заменить torch и torchvision в `wunjo/app/src/app_packages/`
 
-        ```bash
+
+    После сборки, вы найдете собранный билд в директории `portable/build`. Сборка может запускаться из `.exe` как обычная программа или из консоли. Для запуска из консоли:
+
+        ```
         briefcase run
         ```
 
