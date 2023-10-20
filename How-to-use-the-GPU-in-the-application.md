@@ -67,15 +67,23 @@ To use the GPU in the Wunjo AI application on Windows, you need to rebuild the b
 
 4. **Install dependencies**:
 
-    ```bash
-    pip install -r requirements_gpu.txt
+    ```
+    python -m pip install --upgrade pip
+    python -m pip install --upgrade setuptools
+    python -m pip install --upgrade wheel
+    python -m pip install -r requirements_gpu.txt
+    python -m pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+    python -m pip install xformers==0.0.19
     ```
 
 5. **Verify CUDA installation**:
    
     After installing the torch libraries, check that CUDA has installed correctly. Open your Python environment and run the following script:
+    ```
+    python
+    ```
 
-    ```python
+    ```
     import torch
 
     if torch.cuda.is_available():
@@ -107,6 +115,15 @@ To use the GPU in the Wunjo AI application on Windows, you need to rebuild the b
         ```bash
         briefcase build
         ```
+
+      Please note that on Windows the following errors may occur after the build:
+
+      ```
+      'NoneType' object has no attribute 'flush'
+      ```
+      To fix it, you need to remove the line `_default_handler.flush = sys.stderr.flush` in `wunjo/app/src/app_packages/transformers/utils/logging.py`.
+    
+      Torch after the briefcase build was installed only for the CPU. Need to copy from venv torch and torchvision and replace torch and torchvision in `wunjo/app/src/app_packages/`
 
     - To run:
 
