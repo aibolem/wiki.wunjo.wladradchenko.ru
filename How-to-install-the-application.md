@@ -122,7 +122,7 @@ Copy `pyproject.toml` for using version:
 // CPU
 cp pyproject_cpu.toml pyproject.toml
 // GPU
-cp pyproject_cpu.toml pyproject.toml
+cp pyproject_gpu.toml pyproject.toml  // Not work for MacOS
 ```
 
 Run:
