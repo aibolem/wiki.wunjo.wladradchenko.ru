@@ -15,7 +15,7 @@ os.environ["HOME"] = "path to the desired drive or folder"
 If you use Windows:
 
 ```
-os.environ["USERPROFILE"] = "N://wunjo"  // path to the desired drive or folder
+os.environ["USERPROFILE"] = "N:\\wunjo"  // path to the desired drive or folder
 ```
 
 Here `"path to the desired drive or folder"` is the location where you want to move the `.wunjo` folder.
