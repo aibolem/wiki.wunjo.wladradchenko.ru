@@ -38,9 +38,11 @@ You will find help information about Wunjo AI on multi languages in wiki on **En
 2. Install dependencies:
     ```
     // CPU
-    pip install -r requirements.txt
+    pip install -r requirements_cpu.txt  // Not MacOS
+    // CPU only MacOS
+    pip install -r requirements_macos.txt
     // GPU
-    pip install -r requirements_gpu.txt
+    pip install -r requirements_gpu.txt  // Not MacOS
     ```
 
 More information about installation in [How to install the application](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-install-the-application) and [How to use the GPU in the application](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-use-the-GPU-in-the-application).
