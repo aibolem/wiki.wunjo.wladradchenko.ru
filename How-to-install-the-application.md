@@ -105,9 +105,11 @@ Install dependencies:
 
 ```
 // CPU
-pip install -r requirements.txt
+pip install -r requirements_cpu.txt  // Not MacOS
+// CPU only MacOS
+pip install -r requirements_macos.txt
 // GPU
-pip install -r requirements_gpu.txt
+pip install -r requirements_gpu.txt  // Not MacOS
 ```
 
 In order to use GPU you need to install CUDA 11.8. [How to use the GPU in the application](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-use-the-GPU-in-the-application).
