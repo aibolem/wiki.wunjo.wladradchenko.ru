@@ -62,7 +62,7 @@
 
     ```bash
     python -m venv venv
-    venv\Scripts\activate.bat
+    venv\\Scripts\\activate.bat
     ```
 
 4. **Установка зависимостей**:
@@ -122,12 +122,12 @@
      ```
      'NoneType' object has no attribute 'flush'
      ```
-     Для ее исправление необходимо в `wunjo/app/src/app_packages/transformers/utils/logging.py` удалить строчку `_default_handler.flush = sys.stderr.flush`.
+     Для ее исправление необходимо в `wunjo\\app\\src\\app_packages\\transformers\\utils\\logging.py` удалить строчку `_default_handler.flush = sys.stderr.flush`.
     
-     Torch после briefcase build поставился только для CPU. Необходимо скопировать из `venv\\Lib\\site-packages` torch, torch_optimizer, torchvision и заменить torch и torchvision в `wunjo/app/src/app_packages/`
+     Torch после briefcase build поставился только для CPU. Необходимо скопировать из `venv\\Lib\\site-packages` torch, torch_optimizer, torchvision и заменить torch и torchvision в `wunjo\\app\\src\\app_packages\\`
 
 
-    После сборки, вы найдете собранный билд в директории `portable/build`. Сборка может запускаться из `.exe` как обычная программа или из консоли. Для запуска из консоли:
+    После сборки, вы найдете собранный билд в директории `portable\\build`. Сборка может запускаться из `.exe` как обычная программа или из консоли. Для запуска из консоли:
 
         ```
         briefcase run
