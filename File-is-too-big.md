@@ -1,6 +1,6 @@
 # Troubleshooting "File is too big" Message
 
-When launching a specific module, you might encounter the "File is too big" message. This could indicate an issue with file loading into the `.wunjo/tmp` directory. This problem could stem from browser peculiarities or memory cache limitations. If you've encountered this problem, you may need to adjust the file loading time to suit your needs.
+When launching a specific module, you might encounter the "File is too big" message. This could indicate an issue with file loading into the `.wunjo/tmp` directory. This problem could stem from browser peculiarities or memory cache limitations or RAM. If you've encountered this problem, you may need to adjust the file loading time to suit your needs.
 
 To customize the file loading time, open the file [general_utils.py](https://github.com/wladradchenko/wunjo.wladradchenko.ru/blob/main/portable/src/backend/general_utils.py) and locate the `check_tmp_file_uploaded` method. You can modify the parameters within this method:
 
