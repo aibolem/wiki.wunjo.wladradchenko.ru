@@ -26,3 +26,5 @@ In this code, `retries` refer to the number of attempts to check file upload to 
 Utilize these parameters to tailor your application's behavior according to your requirements.
 
 Additionally, don't forget that you can reduce the file resolution or split it into several small ones for faster loading and processing.
+
+If you have limit browser size, then u need to increase your limitation, for example like in this [link](https://learn.microsoft.com/en-us/answers/questions/946210/413-request-entity-too-large).
