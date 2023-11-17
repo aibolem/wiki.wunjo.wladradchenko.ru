@@ -24,3 +24,5 @@ def check_tmp_file_uploaded(file_path, retries=10, delay=30):
 In this code, `retries` refer to the number of attempts to check file upload to `.wunjo/tmp`, while `delay` signifies the waiting time between each attempt.
 
 Utilize these parameters to tailor your application's behavior according to your requirements.
+
+Additionally, don't forget that you can reduce the file resolution or split it into several small ones for faster loading and processing.
