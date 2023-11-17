@@ -22,6 +22,7 @@
   - Diffusion documentation
     - How use video to video by text prompt
   - [How to use the GPU in the application](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/How-to-use-the-GPU-in-the-application)
+  - [File is too big](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/File-is-too-big)
   - [Support the Project](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Support-the-Project)
   - [Acknowledgements](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Acknowledgements)
   - [Author](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Author)
@@ -46,6 +47,7 @@
   - Документация по diffusion
     - Как изменить видео текстовым запросом
   - [Как использовать GPU в приложении](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Как-использовать-GPU-в-приложении)
+  - [Файл слишком большой](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Файл-слишком-большой)
   - [Поддержите проект](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Поддержите-проект)
   - [Благодарности](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Благодарности)
   - [Автор](https://github.com/wladradchenko/wunjo.wladradchenko.ru/wiki/Автор)
