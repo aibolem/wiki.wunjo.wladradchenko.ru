@@ -1,6 +1,6 @@
 ### Install Wunjo AI
 
-You can download installers for Windows, MacOS and Ubuntu operating systems on the official website [Wunjo AI](wladradchenko.ru/wunjo).
+You can download installers for Windows, MacOS and Ubuntu operating systems on the official website [Wunjo AI](https://wladradchenko.ru/wunjo).
 
 #### Installation on Windows
 
