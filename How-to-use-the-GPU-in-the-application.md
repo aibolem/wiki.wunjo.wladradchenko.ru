@@ -150,3 +150,11 @@ The Ubuntu application is naturally compatible with GPU libraries. Open the appl
 #### macOS
 
 Due to the lack of driver support on macOS, you are limited to using the CPU. However, you can modify the application for use with OpenCL alternatives.
+
+#### Additional
+
+For last versions CUDA12.x, cuDNN9.x, xformers, torch, torchaudio and torchvision, you can install flash-attn to improve performance.
+
+```
+MAX_JOBS=4 pip install flash-attn
+```
